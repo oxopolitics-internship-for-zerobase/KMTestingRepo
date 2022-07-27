@@ -9,25 +9,31 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import TestCompo from "./components/TestCompo";
 
 function App() {
-  const [count, setCount] = useState(0);
-  const [count2, setCount2] = useState(0);
-  const [count3, setCount3] = useState(0);
+  const [count11, setCount11] = useState(0);
+  const [count112, setCount112] = useState(0);
+  const [count113, setCount113] = useState(0);
   return (
     <>
-      <div className="App">
-        <div>ddd{count}</div>
-        <FontAwesomeIcon icon={faBars} />
-        <TestCompo />
-        <p>tltltltl</p>
+      <div>
+        이소윤 충돌발생 중입니다!
       </div>
-
-      <div className="card">
-        <button onClick={() => setCount2((count2) => count2 + 1)}>
-          count is {count2}
-        </button>
-        <button onClick={() => setCount3((count3) => count3 - 1)}>
-          count is {count3}
-        </button>
+      <div>
+        이소윤 충돌발생 중입니다!
+      </div>
+      <div>
+        이소윤 충돌발생 중입니다!
+      </div>
+      <div>
+        이소윤 충돌발생 중입니다!
+      </div>
+      <div>
+        이소윤 충돌발생 중입니다!
+      </div>
+      <div>
+        이소윤 충돌발생 중입니다!
+      </div>
+      <div>
+        이소윤 충돌발생 중입니다!
       </div>
     </>
   );
