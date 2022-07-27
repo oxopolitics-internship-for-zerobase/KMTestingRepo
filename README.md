@@ -21,3 +21,4 @@
   ```java
   <FontAwesomeIcon icon={faBars} />
   ```
+  태
