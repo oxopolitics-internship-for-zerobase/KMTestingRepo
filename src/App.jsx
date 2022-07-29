@@ -16,30 +16,20 @@ function App() {
   return ( 
     <>
       <div>
-        <p>이소윤 수정</p>
+        <p>이소윤 충돌</p>
+      </div><div>
+        <p>이소윤 충돌</p>
+      </div><div>
+        <p>이소윤 충돌</p>
+      </div><div>
+        <p>이소윤 충돌</p>
+      </div><div>
+        <p>이소윤 충돌</p>
       </div>
       <div>
-        <p>이소윤 수정</p>
+        <p>이소윤 충돌</p>
       </div>
-      <div>
-        <p>이소윤 수정</p>
-      </div>
-      <div>
-        <p>이소윤 수정</p>
-      </div>
-      <div>
-        <p>이소윤 수정</p>
-      </div>
-      <div>
-        <p>이소윤 수정</p>
-      </div>
-      <div>
-        <p>이소윤 수정</p>
-      </div>
-      <div>
-        <p>이소윤 수정</p>
-      </div>
-      
+
     </>
   );
 }
