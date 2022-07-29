@@ -21,8 +21,10 @@ function App() {
 
   return (
     <>
+
       <strong>{[count11, count112, count113]}</strong>
       <button onClick={doSomething()}>Click!</button>
+
     </>
   );
 }
