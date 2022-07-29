@@ -21,9 +21,20 @@ function App() {
 
   return (
     <>
-
-      <strong>{[count11, count112, count113]}</strong>
-      <button onClick={doSomething()}>Click!</button>
+      <div>
+        <p>이소윤 충돌234</p>
+      </div><div>
+        <p>이소윤 충돌234</p>
+      </div><div>
+        <p>이소윤 충돌234</p>
+      </div><div>
+        <p>이소윤 충돌234</p>
+      </div><div>
+        <p>이소윤 충돌234</p>
+      </div>
+      <div>
+        <p>이소윤 111충돌</p>
+      </div>
 
     </>
   );
