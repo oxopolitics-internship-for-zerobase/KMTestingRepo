@@ -1,12 +1,19 @@
 import React, { useState } from "react";
 import "./App.css";
-import {
-  faCheckSquare,
-  faSpinner,
-  faBars,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import TestCompo from "./components/TestCompo";
+// import {
+//   faCheckSquare,
+//   faSpinner,
+//   faBars,
+// } from "@fortawesome/free-solid-svg-icons";
+// import TestCompo from "./components/TestCompo";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+const doSomething = () => {
+  setCount11(count11++);
+  setCount112(count112++);
+  setCount113(count113--);
+}
+
 
 function App() {
   const [count11, setCount11] = useState(0);
@@ -15,27 +22,8 @@ function App() {
 
   return (
     <>
-      <div>
-        이소윤 충돌발생 중입니다!
-      </div>
-      <div>
-        이소윤 충돌발생 중입니다!
-      </div>
-      <div>
-        이소윤 충돌발생 중입니다!
-      </div>
-      <div>
-        이소윤 충돌발생 중입니다!
-      </div>
-      <div>
-        이소윤 충돌발생 중입니다!
-      </div>
-      <div>
-        이소윤 충돌발생 중입니다!
-      </div>
-      <div>
-        이소윤 충돌발생 중입니다!
-      </div>
+      <strong>{[count11, count112, count113]}</strong>
+      <button onClick={doSomething()}>Click!</button>
     </>
   );
 }
