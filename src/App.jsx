@@ -12,7 +12,7 @@ function App() {
   const [count11, setCount11] = useState(0);
   const [count112, setCount112] = useState(0);
   const [count113, setCount113] = useState(0);
-  
+
   const doSomething = () => {
     setCount11(count11++);
     setCount112(count112++);
@@ -21,8 +21,10 @@ function App() {
 
   return (
     <>
+
       <strong>{[count11, count112, count113]}</strong>
       <button onClick={doSomething()}>Click!</button>
+
     </>
   );
 }
